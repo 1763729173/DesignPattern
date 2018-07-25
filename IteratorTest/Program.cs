@@ -26,7 +26,8 @@ namespace IteratorTest
             while (!iterator.IsDone())
             {
                 Console.WriteLine(iterator.GetElement());
-                iterator.MoveNext();
+                iterator.MoveNext()
+                    ;
             }
             Console.ReadLine();
         }
