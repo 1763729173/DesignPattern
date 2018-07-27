@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 访问者模式
+/// </summary>
 namespace VisitorTest
 {
     class Program

@@ -5,21 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// 状态模式
+/// 解释器模式
 /// </summary>
-namespace stateTest
+namespace interptetTest
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var machine = new Machine();
-            machine.PrintState();
-            machine.Stop();
-            machine.PrintState();
-            machine.Start();
-            machine.PrintState();
-            machine.Start();
+            string expression = "123 + 123 + 123";
+            Calculator calculator = new Calculator(expression);
+            Console.WriteLine(calculator.Calulate());
 
             Console.ReadLine();
         }

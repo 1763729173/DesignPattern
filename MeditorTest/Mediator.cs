@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern
+namespace MeditorTest
 {
-    class Program
+    public abstract class Mediator
     {
-        static void Main(string[] args)
-        {
-        }
+        public abstract void Opreator(Person person,string message);
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7307899C-C286-4F03-B842-87BBEB081DD7}</ProjectGuid>
+    <ProjectGuid>{0E1E63DD-27C8-4D91-8DE7-431314D90FC2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DesignPattern</RootNamespace>
-    <AssemblyName>DesignPattern</AssemblyName>
+    <RootNamespace>MeditorTest</RootNamespace>
+    <AssemblyName>MeditorTest</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HouseMediator.cs" />
+    <Compile Include="LandLord.cs" />
+    <Compile Include="Mediator.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Render.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

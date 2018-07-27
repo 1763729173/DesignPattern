@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 备忘录模式
+/// </summary>
 namespace MementoTest
 {
     class Program

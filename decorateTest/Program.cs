@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 装饰者模式
+/// </summary>
 namespace decorateTest
 {
     class Program

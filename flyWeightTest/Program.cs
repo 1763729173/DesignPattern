@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 享元模式
+/// </summary>
 namespace flyWeightTest
 {
 

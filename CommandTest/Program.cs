@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 命令模式
+/// </summary>
 namespace CommandTest
 {
     class Program

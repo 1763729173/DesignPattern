@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 迭代子模式
+/// </summary>
 namespace IteratorTest
 {
     class Program

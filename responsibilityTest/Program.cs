@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 责任链模式
+/// </summary>
 namespace responsibilityTest
 {
     class Program

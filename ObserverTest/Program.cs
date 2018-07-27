@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 观察者模式
+/// </summary>
 namespace ObserverTest
 {
     class Program

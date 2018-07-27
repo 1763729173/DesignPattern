@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 模板方法模式
+/// </summary>
 namespace TemplateTest
 {
     class Program
