@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "decorateTest", "decorateTest\decorateTest.csproj", "{129D9FCA-0CCF-49AC-A261-DC805695E49A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecorateTest", "decorateTest\DecorateTest.csproj", "{129D9FCA-0CCF-49AC-A261-DC805695E49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "flyWeightTest", "flyWeightTest\flyWeightTest.csproj", "{2510A494-D6A6-4CBC-836A-A0BE150F36E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyWeightTest", "flyWeightTest\FlyWeightTest.csproj", "{2510A494-D6A6-4CBC-836A-A0BE150F36E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyTest", "Strategy\StrategyTest.csproj", "{C10A5785-6687-4517-BA03-A1B4937F3AC6}"
 EndProject
@@ -19,15 +19,25 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorTest", "IteratorTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoTest", "MementoTest\MementoTest.csproj", "{C0B90E83-28BB-4BA6-81F9-DC45B192C76B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stateTest", "stateTest\stateTest.csproj", "{0481C6E3-877E-45DC-8ED6-2C68515032A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateTest", "stateTest\StateTest.csproj", "{0481C6E3-877E-45DC-8ED6-2C68515032A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorTest", "VisitorTest\VisitorTest.csproj", "{296BBB68-0F47-4AA2-8A6E-222381490264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "responsibilityTest", "responsibilityTest\responsibilityTest.csproj", "{EE53EF25-42B8-4C7A-A711-D7F28C62DB5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityTest", "responsibilityTest\ResponsibilityTest.csproj", "{EE53EF25-42B8-4C7A-A711-D7F28C62DB5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeditorTest", "MeditorTest\MeditorTest.csproj", "{0E1E63DD-27C8-4D91-8DE7-431314D90FC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interptetTest", "interptetTest\interptetTest.csproj", "{21674884-ED93-441A-8944-045D5521C3B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterptetTest", "interptetTest\InterptetTest.csproj", "{21674884-ED93-441A-8944-045D5521C3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterTest", "AdapterTest\AdapterTest.csproj", "{98CAECB4-9D4A-40E1-955C-9C7AFF5A6496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeTest", "BridgeTest\BridgeTest.csproj", "{5EF63BF3-EDC6-487D-A93A-A5F2E553A944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationTest", "CombinationTest\CombinationTest.csproj", "{C0B1AB2F-429E-4F02-8400-85FB96A1885B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeTest", "FacadeTest\FacadeTest.csproj", "{D253123A-BA3B-486F-9ED2-98F0EAB2963D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTest", "ProxyTest\ProxyTest.csproj", "{601ED963-5B95-4E2C-B7B0-7EFE2BB67918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +97,26 @@ Global
 		{21674884-ED93-441A-8944-045D5521C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21674884-ED93-441A-8944-045D5521C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21674884-ED93-441A-8944-045D5521C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CAECB4-9D4A-40E1-955C-9C7AFF5A6496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CAECB4-9D4A-40E1-955C-9C7AFF5A6496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CAECB4-9D4A-40E1-955C-9C7AFF5A6496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CAECB4-9D4A-40E1-955C-9C7AFF5A6496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF63BF3-EDC6-487D-A93A-A5F2E553A944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF63BF3-EDC6-487D-A93A-A5F2E553A944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF63BF3-EDC6-487D-A93A-A5F2E553A944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF63BF3-EDC6-487D-A93A-A5F2E553A944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0B1AB2F-429E-4F02-8400-85FB96A1885B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0B1AB2F-429E-4F02-8400-85FB96A1885B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0B1AB2F-429E-4F02-8400-85FB96A1885B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0B1AB2F-429E-4F02-8400-85FB96A1885B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D253123A-BA3B-486F-9ED2-98F0EAB2963D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D253123A-BA3B-486F-9ED2-98F0EAB2963D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D253123A-BA3B-486F-9ED2-98F0EAB2963D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D253123A-BA3B-486F-9ED2-98F0EAB2963D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601ED963-5B95-4E2C-B7B0-7EFE2BB67918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601ED963-5B95-4E2C-B7B0-7EFE2BB67918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601ED963-5B95-4E2C-B7B0-7EFE2BB67918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601ED963-5B95-4E2C-B7B0-7EFE2BB67918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
